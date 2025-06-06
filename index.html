@@ -563,7 +563,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
@@ -622,6 +622,28 @@
               id="user-text"
               placeholder="Text input"
             ></textarea>
+            <div class="modal-field accept-text">
+              <input
+                type="checkbox"
+                class="modal-chek visually-hidden"
+                name="policy"
+                id="acception"
+                value="true"
+              />
+              <label for="acception" class="check-text"
+                ><span class="check-element"
+                  ><svg class="check-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg> </span
+                >I accept the terms and conditions of the
+                <a
+                  class="policy-link"
+                  href="https://policies.google.com/privacy?hl=en-US"
+                >
+                  Privacy Policy</a
+                ></label
+              >
+            </div>
           </div>
           <button type="submit" class="modal-button">Send</button>
         </form>
