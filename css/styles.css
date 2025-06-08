@@ -755,7 +755,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-item {
@@ -778,7 +778,6 @@ img {
   padding-left: 38px;
 }
 
-/* .modal-input:active, */
 .modal-input:focus {
   border: solid #4d5ae5;
 }
@@ -881,7 +880,6 @@ img {
   height: 16px;
   border-radius: 2px;
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
