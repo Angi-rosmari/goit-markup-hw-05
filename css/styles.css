@@ -819,6 +819,10 @@ img {
   position: relative;
 }
 
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   height: 120px;
   resize: none;
